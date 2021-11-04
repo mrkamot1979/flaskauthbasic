@@ -7,9 +7,9 @@ from urllib.request import urlopen
 
 app = Flask(__name__)
 
-AUTH0_DOMAIN = "dev-t-4nnqyi.us.auth0.com" #@TODO_REPLACE_WITH_YOUR_DOMAIN
+AUTH0_DOMAIN = 'dev-t-4nnqyi.us.auth0.com' #@TODO_REPLACE_WITH_YOUR_DOMAIN
 ALGORITHMS = ['RS256']
-API_AUDIENCE = "image"
+API_AUDIENCE = 'image'
 
 
 class AuthError(Exception):
